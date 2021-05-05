@@ -1,0 +1,11 @@
+#The Story Of All Our Lives
+
+tired = 0
+coding = 0
+while coding < 11:
+    coding += 1
+    tired += 1
+    print(coding)
+    if coding == 10:
+        print("Time to sleep, another good day of coding!")
+        break
